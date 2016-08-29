@@ -14,15 +14,15 @@ gulp.task('sass', function () {
 
 
 gulp.task('watch', function() {
-  gulp.watch('*.scss', ['sass']);
+  gulp.watch('/*.scss', ['sass']);
   gulp.watch('js/*.js', ['js']);
-  gulp.watch('jquery/*.html').on('change', browserSync.reload);
+  gulp.watch('*.html').on('change', browserSync.reload);
 });
 
 gulp.task('serve', function() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "*./"
         }
     });
 });
