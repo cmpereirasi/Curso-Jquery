@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(to left, #EEE, #FFF);
+	font-family: sans-serif;
+}
+
+.container{
+	margin: 0;
+	padding: 5%;
+	background: linear-gradient(to right, #ffccbc, #fbe9e7);
+}
+button{
+	margin-top: 5%;
+	padding: 3% 5%;
+	border-radius: 5px;
+	border: none;
+	font-weight: 400;
+	background: orange;
+}
+#h1-curso{
+	cursor: pointer;
+	padding: 2%;
+	transition: 2s;
+}
+#h1-curso:hover{
+	background: orange;
+	transition: 1s;
+}

@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "name": "jquery",
+  "version": "1.0.0",
+  "description": "curso jquery avançado",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-sass": "^2.3.2",
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.14.0",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmpereirasi/Curso-Jquery.git"
+  },
+  "author": "Carlos Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmpereirasi/Curso-Jquery/issues"
+  },
+  "homepage": "https://github.com/cmpereirasi/Curso-Jquery#readme"
+}
