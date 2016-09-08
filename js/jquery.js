@@ -11,6 +11,13 @@ $(document).ready(function(){
 		$("#bird").html(" h is me")
 	}),
 	$("button").click(function(c){
-		$(".container").css({transition:"2s",background:"purple"})
+		$(".container").css({transition:"3s",background:"purple"})
 	})
+ 		//adicionando novos valores com attrs
+	$("img").click(function(event) {
+		$("img").attr("src", "img/img 9.png");
+		$("img").toggleClass("img-id");
+	});
+
+	alert($("img-mobil").html());
 });

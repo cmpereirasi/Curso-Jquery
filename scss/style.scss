@@ -32,3 +32,12 @@ button{
 	background: orange;
 	transition: 1s;
 }
+
+.img-mobil{
+	float: left;
+	img{
+		width: 400px;
+		cursor: pointer;
+		transition: 5s;
+	}
+}
